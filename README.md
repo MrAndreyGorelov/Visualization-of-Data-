@@ -33,6 +33,8 @@ The variables I looked into in this part are from the Univariate Exploration. Fi
 
 # Multivariate Exploration 
 
+This part takes a closer look at the variables in multiple amounts compared to each other. In particular, I am looking into Borrower APR and Loan Original Amount and comparing them to variables Term and Prosper Rating (Alpha). Thus, then the plot is constructed (and in my scenario I have decided to construct Pointplot, FacetGrid and Regplot) which allows me to see three variables at the same time and their relation to each other. This further gives us information how one variable can be 'linked' to the other. It also shows a better visual representation (in my opinion) of the relation between varaibles, as you can clearly spot the negative or positive correlations, or an increase or decrease in general amounts. 
+
 # Conclusion 
 
 I am sure if I would have taken into accound other variables like Borrower Rate, Prosper Score, Total Prosper Loans, Loan Origination Data I could have found other interesting correlations and relations between variables. However, I decided to stick to those one as in my opinion they demostrate the variables for the plots quite well.
