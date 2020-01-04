@@ -27,4 +27,13 @@ After that, I have decided to focus my attention on the Borrower APR (Annual Per
 
 # Bivariate Exploration 
 
+In this part of the project I am comparing the variable attributes. The point is to find the relationship the numerical and categorical, and compares them either to each other or against each other. 
+
+The variables I looked into in this part are from the Univariate Exploration. Firstly, I looked into the heatmap between 'LoanOriginalAmount', 'BorrowerAPR', 'StatedMonthlyIncome' and 'Term', 'ProsperRating (Alpha)','EmploymentStatus'. This shows the correlation between two variables and if it is possitive or negative. Then I looked into the same objective but through sample and fig plot (sometimes also putting a line for those figures in order to better see and understand the relation between the variables). Second, I constructed a box plot to better see the relationship between categorical and numeric data (by putting the variables against each other, organising the plot to be nicely ordered and colored). Last but not least, I used the countplot to compare the categorical vs categorical variables, to see what the relation is and if the graphs would make any sense. 
+
+# Multivariate Exploration 
+
+# Conclusion 
+
+I am sure if I would have taken into accound other variables like Borrower Rate, Prosper Score, Total Prosper Loans, Loan Origination Data I could have found other interesting correlations and relations between variables. However, I decided to stick to those one as in my opinion they demostrate the variables for the plots quite well.
 
