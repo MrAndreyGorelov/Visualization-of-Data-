@@ -4,7 +4,7 @@ This is the last project of the Udacity Course. It focuses on applying all the c
 
 # Introduction
 
-Before the project, I completed 7 lessons that taught me how to write visualization code, properly construct it and modify in order to get a better represantion of the given data. 
+Before the project, I completed 7 lessons that taught me how to write visualization code, properly construct it and modify in order to get a better represantion of the given data. I worked on the Project through Jupyther Notebook, and in addition to learned codes beforehand, I used the website 'https://seaborn.pydata.org/index.html' to help me construct better plots. 
 
 # Main Body 
 
