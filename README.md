@@ -1,14 +1,10 @@
-# Visualization-of-Data-
+# Visualization of Loan Data 
 
 This is the last project of the Udacity Course. It focuses on applying all the codes learned into one, and completeing an analysis in order to interpret the findinds. 
 
 # Introduction
 
-Before the project, I completed 7 lessons that taught me how to write visualization code, properly construct it and modify in order to get a better represantion of the given data. I worked on the Project through Jupyther Notebook, and in addition to learned codes beforehand, I used the website 'https://seaborn.pydata.org/index.html' to help me construct better plots. 
-
-# Main Body 
-
-There are multiple recollections to be made with the given visualization. It breaks down into two parts - Exploratory Data and Explanatory Data. In this project we are working with both of them. 
+In this porject I have deciced to choose the 'Loan Data from Prosper' optional topic to work with. In order to gain access to the data frame, I had to follow the link that immediately started to download the 'prosperLoanData' file for me. In there, I have chosen to analyse the information on the loans data like loan amount, interest rate, borrower rate, the status on the loan, different fees and many others. As the results, the loan data consists of 113,937 loans and 81 variables for each loan. Any information given regarding personal information can be useful. Such information cna be: occupation, the rating in Prosper, the loan status, income of the borrower and etc. Before the project, I completed 7 lessons that taught me how to write visualization code, properly construct it and modify in order to get a better represantion of the given data. I worked on the Project through Jupyther Notebook, and in addition to learned codes beforehand, I used the website 'https://seaborn.pydata.org/index.html' to help me construct better plots. 
 
 # Univariate Exploration
 
@@ -49,8 +45,8 @@ As a result, I found that:
 This part takes a closer look at the variables in multiple amounts compared to each other. In particular, I am looking into Borrower APR and Loan Original Amount and comparing them to variables Term and Prosper Rating (Alpha). Thus, then the plot is constructed (and in my scenario I have decided to construct Pointplot, FacetGrid and Regplot) which allows me to see three variables at the same time and their relation to each other. This further gives us information how one variable can be 'linked' to the other. It also shows a better visual representation (in my opinion) of the relation between varaibles, as you can clearly spot the negative or positive correlations, or an increase or decrease in general amounts. 
 
 As the result, I found that: 
--Borrowers APR goes down as it climbs on the Prosper Ratings in terms of borrow Terms. However, it suddenly improves from negative relation to positive as the Prosper Rating goes from HR level towards AA. (We can see that sudden change in the transition from Rating B to A)
-When does the same on Loan Original Amount, then we can see a constant positive relation with Prosper Rating and Term. However, the relation gets better as well (borrow term amounts) when the Prosper Ratings goes up from HR to AA, which was similarly seen with Borrowers APR.
+- Borrowers APR goes down as it climbs on the Prosper Ratings in terms of borrow Terms. However, it suddenly improves from negative relation to positive as the Prosper Rating goes from HR level towards AA. (We can see that sudden change in the transition from Rating B to A)
+- A constant positive relation with Prosper Rating and Term. However, the relation gets better as well (borrow term amounts) when the Prosper Ratings goes up from HR to AA, which was similarly seen with Borrowers APR.
 
 # Conclusion 
 
